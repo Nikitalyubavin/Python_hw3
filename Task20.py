@@ -39,10 +39,10 @@ dict = {'A': 1, 'E': 1, 'I': 1, 'O': 1, 'U': 1, 'L': 1, 'N': 1, 'S': 1, 'T': 1, 
         'Ш': 8, 'Э': 8, 'Ю': 8, 
         'Ф': 10, 'Щ': 10, 'Ъ': 10}
 
-word = input("Type a word: ").upper()
+word = input("Введите слово: ").upper()
 
 count = 0
 for i in word:
     count += dict[i]
 
-print(count)
+print(f'Количество очков: {count}')

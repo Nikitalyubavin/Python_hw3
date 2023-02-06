@@ -9,11 +9,7 @@
 
 n = int(input("Введите длину массива: "))
 
-array = list()
-i = 0
-while (i < n):
-    array.append(i+1)
-    i += 1
+array = [i for i in range(1, n+1)]
 
 print(*array)
 
